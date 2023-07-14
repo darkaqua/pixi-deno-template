@@ -16,6 +16,8 @@ const texture = PIXI.Texture.from('./assets/bunny.png');
 for (let i = 0; i < 25; i++)
 {
 	const bunny = new PIXI.Sprite(texture);
+	const text = new PIXI.Text('Bunny');
+	bunny.addChild(text);
 	
 	bunny.anchor.set(0.5);
 	bunny.x = (i % 5) * 40;
