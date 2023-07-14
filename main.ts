@@ -5,5 +5,6 @@ await webServe({
 	indexFileName: 'main.ts',
 	minify: false,
 	externals: [],
+	mixAllInsideIndex: false,
 	envs: ['ENVIRONMENT'],
 });

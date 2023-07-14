@@ -58,8 +58,7 @@ typings/
 
 \.idea/
 
-/public/assets
-/public/bundle.js
+/build
 
 .DS_Store
 .tmp-build

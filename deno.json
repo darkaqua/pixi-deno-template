@@ -1,10 +1,10 @@
 {
   "tasks": {
-    "start": "deno run -A --watch=src/ dev.ts",
+    "start": "deno run -A ./dev.ts",
     "build": "deno run -A ./build.ts"
   },
   "imports": {
     "deno/": "https://deno.land/std@0.194.0/",
-    "deno_web_serve": "https://deno.land/x/deno_web_serve@v1.4.1/mod.ts"
+    "deno_web_serve": "https://deno.land/x/deno_web_serve@v2.0.5/mod.ts"
   }
 }
